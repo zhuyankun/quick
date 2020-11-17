@@ -3,7 +3,7 @@
  * @param array
  * @param compare
  */
-const quicksort = <T>(array: T[], compare?: (a: T, b: T) => number) => {
+const quickSort = <T>(array: T[], compare?: (a: T, b: T) => number) => {
   if (!Array.isArray(array) || array.length < 1) {
     return array;
   }
@@ -52,4 +52,4 @@ const quicksort = <T>(array: T[], compare?: (a: T, b: T) => number) => {
   return array;
 };
 
-export default quicksort;
+export default quickSort;
