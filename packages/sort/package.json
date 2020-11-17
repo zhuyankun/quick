@@ -3,7 +3,7 @@
     "name": "zhuyankun",
     "email": "zuyaku@163.com"
   },
-  "name": "js-quick-sort",
+  "name": "@zuyaku/quick-sort",
   "description": "quick sort",
   "version": "1.0.2",
   "main": "./lib/index.js",
@@ -15,7 +15,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "8e234c1ea7aea0d67dcaa092c0f628243ff09b51",
+  "gitHead": "f0fadbe0f9253e6b89c1a5ea302869b5a301c12c",
   "scripts": {
     "build": "tsc -b ./tsconfig.package.json",
     "prepublish": "npm run build"
