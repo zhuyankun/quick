@@ -15,7 +15,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "2dfa0cff8773827c72cbeaf35bd58997fd6b6c84",
+  "gitHead": "8e234c1ea7aea0d67dcaa092c0f628243ff09b51",
   "scripts": {
     "build": "tsc -b ./tsconfig.package.json",
     "prepublish": "npm run build"

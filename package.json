@@ -12,7 +12,7 @@
     "watch": "tsc --build --watch packages/tsconfig.project.json",
     "update:tsconfig.json": "ts-node scripts/update-package-tsconfig.ts",
     "update:package.json": "ts-node scripts/update-package-json.ts",
-    "pub": "lerna publish --registry=https://www.npmjs.com --yes patch",
+    "pub": "lerna publish --registry=https://registry.npmjs.com --yes patch",
     "lint": "eslint --ignore-path .gitignore . --ext ts",
     "lint:fix": "eslint --fix --ignore-path .gitignore . --ext ts"
   },
