@@ -1,1 +1,1 @@
-# js-quick-sort
+# quick-sort
