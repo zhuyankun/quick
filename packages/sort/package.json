@@ -10,7 +10,7 @@
   "homepage": "https://github.com/zhuyankun/quick",
   "name": "@zuyaku/quick-sort",
   "description": "quick sort",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "files": [
