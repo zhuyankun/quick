@@ -1,0 +1,30 @@
+{
+  "name": "quick",
+  "private": true,
+  "license": "MIT",
+  "author": {
+    "name": "zhuyankun",
+    "email": "zuyaku@163.com"
+  },
+  "scripts": {
+    "bootstrap": "npm i && lerna bootstrap --ignore-scripts && npm run build",
+    "build": "tsc --build packages/tsconfig.project.json",
+    "watch": "tsc --build --watch packages/tsconfig.project.json",
+    "update:tsconfig.json": "ts-node scripts/update-package-tsconfig.ts",
+    "update:package.json": "ts-node scripts/update-package-json.ts",
+    "pub": "lerna publish --registry=https://www.npmjs.com --yes patch",
+    "lint": "eslint --ignore-path .gitignore . --ext ts",
+    "lint:fix": "eslint --fix --ignore-path .gitignore . --ext ts"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.7",
+    "@typescript-eslint/eslint-plugin": "^4.7.0",
+    "@typescript-eslint/parser": "^4.7.0",
+    "eslint": "^7.13.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "lerna": "^3.22.1",
+    "prettier": "^2.1.2",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.5"
+  }
+}

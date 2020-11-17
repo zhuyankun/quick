@@ -1,0 +1,10 @@
+{
+  "lerna": "3.22.1",
+  "packages": ["packages/*"],
+  "command": {
+    "publish": {
+      "registry": "https://www.npmjs.com"
+    }
+  },
+  "version": "1.0.0"
+}

@@ -1,0 +1,23 @@
+{
+  "author": {
+    "name": "zhuyankun",
+    "email": "zuyaku@163.com"
+  },
+  "name": "js-quick-sort",
+  "description": "quick sort",
+  "version": "1.0.0",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "2dfa0cff8773827c72cbeaf35bd58997fd6b6c84",
+  "scripts": {
+    "build": "tsc -b ./tsconfig.package.json",
+    "prepublish": "npm run build"
+  }
+}
