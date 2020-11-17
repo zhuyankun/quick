@@ -3,6 +3,11 @@
     "name": "zhuyankun",
     "email": "zuyaku@163.com"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhuyankun/quick.git"
+  },
+  "homepage": "https://github.com/zhuyankun/quick",
   "name": "@zuyaku/quick-sort",
   "description": "quick sort",
   "version": "1.0.3",
